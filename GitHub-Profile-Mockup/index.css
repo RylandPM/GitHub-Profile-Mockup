@@ -1,0 +1,140 @@
+header {
+  background: black;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  height: 80%;
+  width: 50%;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav img {
+  width: 50px;
+}
+
+.profile {
+  height: 80%;
+  width: 10%;
+  color: rgb(245, 56, 56);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.profile img {
+  width: 25px;
+}
+main {
+  height: calc(100vh - 100px);
+  width: 100vw;
+  display: flex;
+}
+
+main > div {
+  height: 100%;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.personalInfo {
+  height: 60%;
+  width: 15%;
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.personalInfo > div {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.personalInfo img {
+  width: 200px;
+}
+
+.primaryUI {
+  width: 65%;
+  height: 100%;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.selection {
+  width: 100%;
+  height: 10%;
+  font-size: 20px;
+  border-bottom: solid;
+  border-bottom-color: lightgray;
+  border-width: thin;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.repos {
+  margin: 10px;
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.repos1 {
+  width: 45%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.repos2 {
+  width: 45%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.repos1 > div {
+  width: 80%;
+  height: 30%;
+  color: blue;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgrey;
+  border-radius: 5px;
+}
+
+.repos2 > div {
+  /* background: grey; */
+  width: 80%;
+  height: 30%;
+  color: blue;
+  font-size: 16px;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgrey;
+  border-radius: 5px;
+}
